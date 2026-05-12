@@ -63,9 +63,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: SENAI_DARK_GRAY,
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 16,
+  },
+  card: {
+    backgroundColor: WHITE,
+    padding: 16,
+    borderRadius: 8
   },
 });
 }
